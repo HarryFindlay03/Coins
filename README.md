@@ -4,9 +4,9 @@ Very small first rust project using an enum and based off of one of the examples
 This program generates five random coins between Penny, Nickel, Dime, Quater.
 
 Cent Values:
-Penny -> 1. 
-Nickel -> 5\n. 
-Dime -> 10\n. 
-Quater -> 25\n. 
+Penny -> 1<br />
+Nickel -> 5<br />
+Dime -> 10<br />
+Quater -> 25<br />
 
 After the five coins has been generated the program then adds all their cent values together and returns the total.
