@@ -6,6 +6,7 @@ enum Coin {
     Nickel,
     Dime,
     Quater,
+    Empty,
 }
 
 fn main() {
@@ -27,6 +28,7 @@ fn value_in_cents(coin: &Coin) -> u32 {
         Coin::Nickel => 5,
         Coin::Dime => 10,
         Coin::Quater => 25,
+        _ => 0, //Coin::Empty
     }
 }
 
@@ -47,7 +49,10 @@ fn get_coin(num :u8) -> Coin {
         Coin::Nickel
     } else if num == 3 {
         Coin::Dime
-    } else {
+    } else if num == 4{
         Coin::Quater
+    } else {
+        println!("ERROR -> No more coins!");
+        Coin::Empty
     }
 }
