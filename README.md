@@ -3,7 +3,7 @@ Very small first rust project using an enum and based off of one of the examples
 
 This program generates five random coins between Penny, Nickel, Dime, Quater.
 
-Cent Values:
+Cent Values:<br />
 Penny -> 1<br />
 Nickel -> 5<br />
 Dime -> 10<br />
